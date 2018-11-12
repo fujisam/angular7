@@ -1,9 +1,5 @@
 @import "src/theme/theme-variables";
 
-.elem-none {
-  display: none !important;
-}
-
 .navbar {
   margin-bottom: $spacer;
 }
@@ -11,5 +7,3 @@
 .nav-link.dropdown-toggle {
   cursor: pointer;
 }
-
-
