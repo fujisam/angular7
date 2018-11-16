@@ -2,14 +2,14 @@
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark flex-lg-row flex-row-reverse">
     <a class="navbar-brand" href="https://github.com/fujisam">Lorem Ipsum</a>
     <button
-      class="navbar-toggler"
+      class="navbar-toggler p-0"
       type="button"
       aria-controls="navbar-menu"
       aria-label="Toggle navigation"
       (click)="toggleMenu()"
       [attr.aria-expanded]="!menuHidden"
     >
-      <span class="navbar-toggler-icon"></span>
+      <span class="fas fa-bars"></span>
     </button>
     <div id="navbar-menu" class="collapse navbar-collapse float-xs-none" [ngbCollapse]="menuHidden">
       <div class="navbar-nav">
