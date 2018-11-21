@@ -15,3 +15,14 @@
 
 // Theme customization
 @import "theme/theme";
+
+// custom
+@media (max-width: 991px) {
+  .navbar-brand {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+  }
+}
+
+
