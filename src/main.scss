@@ -17,12 +17,11 @@
 @import "theme/theme";
 
 // Custom
-@media (max-width: 991px) {
-  .navbar-brand {   //brand in center - for mobile
+@media screen and (max-width: 991px) {
+  .navbar-brand {
+    //brand in center - for mobile
     flex: 1;
     display: flex;
     justify-content: center;
   }
 }
-
-
