@@ -17,6 +17,15 @@
 @import "theme/theme";
 
 // Custom
+// Extra Large
+@media screen and (min-width: 1200px) {
+}
+
+// Large
+@media screen and (max-width: 1199px) {
+}
+
+// Medium
 @media screen and (max-width: 991px) {
   .navbar-brand {
     //brand in center - for mobile
@@ -25,3 +34,13 @@
     justify-content: center;
   }
 }
+
+// Small
+@media screen and (max-width: 767px) {
+}
+
+// Extra Small
+@media screen and (max-width: 575px) {
+}
+
+
