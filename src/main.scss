@@ -27,6 +27,17 @@
 
 // Medium
 @media only screen and (max-width: 991px) {
+  .navbar-collapse {
+    position: absolute;
+    background-color: $black-1;
+    top: 57px;
+    left: 0;
+    width: 97%;
+    height: 5000px;
+    padding: 12px 20px;
+    opacity: .85;
+  }
+
   //brand in center - for mobile
   .navbar-brand {
     display: block;
