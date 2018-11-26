@@ -18,15 +18,15 @@
 
 // Custom
 // Extra Large
-@media screen and (min-width: 1200px) {
+@media only screen and (min-width: 1200px) {
 }
 
 // Large
-@media screen and (max-width: 1199px) {
+@media only screen and (max-width: 1199px) {
 }
 
 // Medium
-@media screen and (max-width: 991px) {
+@media only screen and (max-width: 991px) {
   //brand in center - for mobile
   .navbar-brand {
     flex: 1;
@@ -40,9 +40,16 @@
 }
 
 // Small
-@media screen and (max-width: 767px) {
+@media only screen and (max-width: 767px) {
 }
 
 // Extra Small
-@media screen and (max-width: 575px) {
+@media only screen and (max-width: 575px) {
+}
+
+// CSS Debug - orientation: portrait or landscape
+@media only screen and (min-width: 0px) and (max-width: 100000px) and (orientation: portrait) {
+  div {
+    border: 1px solid red;
+  }
 }
