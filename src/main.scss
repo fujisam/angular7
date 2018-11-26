@@ -33,6 +33,10 @@
     display: flex;
     justify-content: center;
   }
+
+  .navbar-nav .dropdown-menu {
+    position: absolute;
+  }
 }
 
 // Small
