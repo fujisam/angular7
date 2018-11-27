@@ -3,6 +3,9 @@ import { Router } from "@angular/router";
 
 import { AuthenticationService, I18nService } from "@app/core";
 
+declare var jquery: any;
+declare var $: any;
+
 @Component({
   selector: "app-header",
   templateUrl: "./header.component.html",
@@ -21,6 +24,10 @@ export class HeaderComponent implements OnInit {
 
   toggleMenu() {
     this.menuHidden = !this.menuHidden;
+
+    $("#navbar-menu").animate({
+      width: "toggle"
+    });
   }
 
   setLanguage(language: string) {
