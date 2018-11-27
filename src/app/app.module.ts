@@ -11,6 +11,7 @@ import { CoreModule } from "@app/core";
 import { SharedModule } from "@app/shared";
 import { HomeModule } from "./home/home.module";
 import { ShellModule } from "./shell/shell.module";
+import { UnderConstructionRoutingModule } from "./under-construction/under-construction-routing.module";
 import { MoviesModule } from "./movies/movies.module";
 import { AboutModule } from "./about/about.module";
 import { LoginModule } from "./login/login.module";
@@ -29,6 +30,7 @@ import { AppRoutingModule } from "./app-routing.module";
     SharedModule,
     ShellModule,
     HomeModule,
+    UnderConstructionRoutingModule,
     MoviesModule,
     AboutModule,
     LoginModule,
