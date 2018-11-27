@@ -16,3 +16,7 @@
 .dropdown-toggle:after {
   display: none;
 }
+
+#navbar-menu > div > a > span {
+  white-space: nowrap;
+}
