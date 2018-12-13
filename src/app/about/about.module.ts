@@ -14,6 +14,8 @@ import { SharedModule } from '@app/shared';
     AboutRoutingModule, 
     SharedModule
   ],
-  declarations: [AboutComponent]
+  declarations: [
+    AboutComponent
+  ]
 })
 export class AboutModule {}

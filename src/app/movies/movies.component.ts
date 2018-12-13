@@ -8,6 +8,10 @@ import { environment } from "@env/environment";
 })
 export class MoviesComponent implements OnInit {
   version: string = environment.version;
+  isLoading: boolean;
+
   constructor() {}
-  ngOnInit() {}
+  ngOnInit() {
+    this.isLoading = true;
+  }
 }
