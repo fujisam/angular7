@@ -12,7 +12,9 @@ export class HomeComponent implements OnInit {
   quote: string;
   isLoading: boolean;
 
-  constructor(private quoteService: QuoteService) {}
+  constructor(
+    private quoteService: QuoteService
+  ) {}
 
   ngOnInit() {
     this.isLoading = true;
